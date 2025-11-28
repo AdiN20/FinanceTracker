@@ -35,7 +35,7 @@ public class FinanceTrackerForm {
                 }
 
                 Transaction t = new Transaction(type, amount, description);
-                manager.addTransaction(t);  // Upis u MongoDB
+                manager.addTransaction(t);  
                 loadDataIntoTable();
                 updateSummary();
                 amountField.setText("");
