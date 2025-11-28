@@ -20,7 +20,7 @@ public class FinanceTrackerForm {
 
 
     public FinanceTrackerForm() {
-        manager = new TransactionManager();  // Inicijalizacija managera
+        manager = new TransactionManager();  
         loadDataIntoTable();
         updateSummary();
 
